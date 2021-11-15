@@ -1,0 +1,5 @@
+composer install
+docker-compose up
+docker exec -it app /bin/sh
+php artisan module:migrate Blog
+add an user to the users table
